@@ -1,0 +1,62 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# misc
+*.Identifier
+runs/
+cropped/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
+*.h5                # Keras model files
+*.pth               # PyTorch model files
+*.pt                # PyTorch model files
+*.ckpt              # TensorFlow checkpoint files
+*.pb                # TensorFlow protobuf files
+*.onnx              # ONNX model files
+
+# Data files
+/data/
+# data/raw/           # Raw data files
+# data/processed/     # Processed data files
+# data/interim/       # Intermediate data files
+# data/external/      # External datasets
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+
+# Output directories
+output/
+results/
+predictions/
+
+# IDE and editor files
+.vscode/            # Visual Studio Code settings
+.idea/              # JetBrains IDE files
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store           # macOS system files
+Thumbs.db           # Windows system files
+
+# Environment variable files
+.env                # Environment variable files
+*.env               # Any other environment variable files
+
+# Miscellaneous
+*.zip               # Compressed files
+*.tar.gz            # Compressed files
+*.rar               # Compressed files
